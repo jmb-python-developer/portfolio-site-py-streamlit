@@ -28,4 +28,4 @@ class AssetManager:
         return self.__profile_pic
 
     def get_resume_filename(self):
-        return self.__resume_file
+        return str(self.__resume_file)

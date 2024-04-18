@@ -29,9 +29,9 @@ with col2:
     st.title(NAME)
     st.write(DESCRIPTION)
     st.download_button(
-        label = "Download Resumè",
+        label = "Download CV PDF",
         data = resume_file_contents,
         file_name = assets_manager.get_resume_filename(),
         mime = "application/octet-stream"
     )
-    st.write("📧", EMAIL)
+    st.write(" 📧 ", EMAIL)

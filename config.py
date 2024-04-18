@@ -7,7 +7,7 @@ NAME = "Juan Marcos Bruno"
 DESCRIPTION = """
 Senior Data Analyst, assisting enterprises by supporting data-driven decision-making.
 """
-EMAIL = "johndoe@email.com"
+EMAIL = "juan.marcos.bruno@gmail.com"
 SOCIAL_MEDIA = {
     "YouTube": "add_youtube_page_here",
     "LinkedIn": "https://linkedin.com",
