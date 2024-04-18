@@ -6,6 +6,9 @@ import streamlit as st
 from config import *
 from tools.assets_manager import AssetManager
 
+def load_experience_and_qualifications():
+    return f"\n".join(EXPERIENCE_QUALIFICATIONS)
+
 # Set page configuration first
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
@@ -29,9 +32,23 @@ with col2:
     st.title(NAME)
     st.write(DESCRIPTION)
     st.download_button(
-        label = "Download CV PDF",
-        data = resume_file_contents,
-        file_name = assets_manager.get_resume_filename(),
-        mime = "application/octet-stream"
+        label="Download CV PDF",
+        data=resume_file_contents,
+        file_name=assets_manager.get_resume_filename(),
+        mime="application/octet-stream"
     )
     st.write(" 📧 ", EMAIL)
+
+# Social Networks Links Section
+st.write("#")
+cols = st.columns(len(SOCIAL_MEDIA))
+for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
+    cols[index].write(f"[{platform}]({link})")
+
+# Experience and Qualifications Section
+st.write("#")
+st.subheader("Experience and Qualifications")
+
+st.write(load_experience_and_qualifications())
+
+
