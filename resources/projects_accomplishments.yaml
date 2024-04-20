@@ -1,0 +1,34 @@
+# Populate tech skills, cloud skills and languages spoken here
+tech_skills:
+  languages:
+    - Java 18
+    - Python 3.10
+    - Kotlin
+  frameworks:
+    - Spring Framework
+  patterns_and_practices:
+    - Design and Enterprise Patterns
+    - TDD
+  apis_protocols:
+    - GraphQL, REST/SOAP, Web Services
+    - XML, JSON Processing
+
+cloud_skills:
+  - AWS Solutions Architect
+  - AWS Step Functions
+  - AWS DynamoDB
+  - AWS Fargate, EC2 VMs on ECS
+  - AWS S3
+  - Cloud and Infra Architecture
+  - SNS/SQS
+  - Apache Spark on AWS EMR
+  - AWS OpenSearch
+  - AWS RDS (Postgres DB engine)
+  - AWS Lambda Serverless Functions
+  - AWS CloudWatch
+  - IaC Terraform, CDK
+
+languages_spoken:
+  - Spanish (Native speaker)
+  - English (Fluent)
+  - German (Basic)
