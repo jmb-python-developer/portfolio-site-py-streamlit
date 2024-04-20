@@ -1,0 +1,21 @@
+# Add here the necessary work history entries
+- title: Senior Software Engineer
+  period: "Sept 2023 – Present"
+  company: Personio
+  business_unit: Payroll
+  location: "Fully Remote Within the EU 🇪🇺, Company based in Munich, Germany"
+  project: "Payroll Calculations. Backend developer and AWS Consultant. Worked on developments for three key Microservices (Orchestration, Payroll Calculations and Payroll Storage) related to payroll calculations for the German market."
+  technology_stack: "Kotlin Microservices, Spring Boot, JooQ, SQS/SNS, PostgreSQL:, Datadog, Mokk, Kotlinx, Gitlab."
+  company_url: "https://www.personio.com/"
+
+- title: Senior Software Engineer – Cloud Engineer (AWS)
+  period: "Sept 2021 – Sept 2023"
+  company: Poppulo
+  business_unit: People Management
+  location: "Fully Remote Within the EU 🇪🇺, Company based in Cork, Ireland."
+  project: "Peoples’ Management Microservices. Full-stack developer, full hands-on on all the different aspects of the
+software development lifecycle, i.e. design, backend development, testing, CI/CD pipelines configuration/monitoring,
+continuous deployment."
+  technology_stack: "Scala/Java Microservices, Spring Boot, Hibernate, Kafka, Cassandra, AWS Keyspaces, MySQL,
+Grafana, Kibana, Prometheus, Cucumber, Gitlab."
+  company_url: "https://www.poppulo.com/"

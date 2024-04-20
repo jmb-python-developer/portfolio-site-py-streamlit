@@ -1,11 +1,11 @@
 # File holds configuration values for CV's contents
 
 # --- GENERAL SETTINGS ---
-PAGE_TITLE = "Digital CV | Juan Marcos Bruno"
-PAGE_ICON = ":wave:"
 NAME = "Juan Marcos Bruno"
+PAGE_TITLE = f"Digital CV | {NAME}"
+PAGE_ICON = ":wave:"
 DESCRIPTION = """
-Senior Data Analyst, assisting enterprises by supporting data-driven decision-making.
+Cloud Architect. Lead Software Developer. Senior Software Engineer. Technology enthusiast
 """
 EMAIL = "juan.marcos.bruno@gmail.com"
 SOCIAL_MEDIA = {

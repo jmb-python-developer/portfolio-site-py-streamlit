@@ -1,23 +1,20 @@
-from pathlib import Path
 from PIL import Image
-import streamlit as st
 
 # Import configuration settings
 from config import *
-from tools.assets_manager import AssetManager
-
-def load_experience_and_qualifications():
-    return f"\n".join(EXPERIENCE_QUALIFICATIONS)
+from helper_classes.assets_manager import AssetManager
+from scripts.skills import *
+from scripts.work_history import *
 
 # Set page configuration first
-st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
+st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON, layout="wide")
 
 assets_manager = AssetManager()
 css_file_contents = assets_manager.get_css()
 resume_file_contents = assets_manager.get_resume()
 profile_pic_contents = assets_manager.get_profile_pic()
 
-st.title("Hello There!")
+st.title(PAGE_TITLE)
 
 # Load CSS, PDF and PROFILE asset's contents
 st.markdown("<style>{}</style>".format(css_file_contents), unsafe_allow_html=True)
@@ -29,7 +26,7 @@ with col1:
     st.image(profile_picture, width=230)
 
 with col2:
-    st.title(NAME)
+    st.markdown(f" ### AWS Certified Cloud Architect")
     st.write(DESCRIPTION)
     st.download_button(
         label="Download CV PDF",
@@ -47,8 +44,16 @@ for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
 
 # Experience and Qualifications Section
 st.write("#")
-st.subheader("Experience and Qualifications")
+st.subheader("Summary of Experience and Qualifications")
+st.write(f"\n".join(EXPERIENCE_QUALIFICATIONS))
 
-st.write(load_experience_and_qualifications())
+# Skills Section
+st.write("#")
+st.subheader("Tech Skills")
+define_skillset()
+
+# Work History Section
+define_work_history()
+
 
 
