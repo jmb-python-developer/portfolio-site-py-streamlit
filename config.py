@@ -1,4 +1,8 @@
-# File holds configuration values for CV's contents
+"""
+File holds configuration values for CV's contents that are not lengthy
+For lengthy contents, such as work history and so on, see resources files and separate
+python script to load them.
+"""
 
 # --- GENERAL SETTINGS ---
 NAME = "Juan Marcos Bruno"
@@ -15,10 +19,7 @@ SOCIAL_MEDIA = {
     # "Twitter": "uncomment_add_twitter_profile_here",
 }
 PROJECTS = {
-    "🏆 Sales Dashboard - Comparing sales across three stores": "https://youtu.be/Sb0A9i6d320",
-    "🏆 Income and Expense Tracker - Web app with NoSQL database": "https://youtu.be/3egaMfE9388",
-    "🏆 Desktop Application - Excel2CSV converter with user settings & menubar": "https://youtu.be/LzCfNanQ_9c",
-    "🏆 MyToolBelt - Custom MS Excel add-in to combine Python & Excel": "https://pythonandvba.com/mytoolbelt/",
+    "Creator of the course **'Master Big Data with Apache Spark and Java' on the Educative e-learning platform:**": "https://www.educative.io/courses/mastering-big-data-apache-spark-java-api",
 }
 
 # If others are added make sure to include the dash always for proper li and formatting by streamlit

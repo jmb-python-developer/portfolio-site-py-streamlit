@@ -5,6 +5,8 @@ from config import *
 from helper_classes.assets_manager import AssetManager
 from scripts.skills import *
 from scripts.work_history import *
+from scripts.projects_accomplishments import define_projects_and_accomplishments
+from scripts.studies import define_studies
 
 # Set page configuration first
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON, layout="wide")
@@ -25,6 +27,7 @@ col1, col2 = st.columns(2, gap="small")
 with col1:
     st.image(profile_picture, width=230)
 
+# Main Information Section
 with col2:
     st.markdown(f" ### AWS Certified Cloud Architect")
     st.write(DESCRIPTION)
@@ -48,12 +51,11 @@ st.subheader("Summary of Experience and Qualifications")
 st.write(f"\n".join(EXPERIENCE_QUALIFICATIONS))
 
 # Skills Section
-st.write("#")
-st.subheader("Tech Skills")
 define_skillset()
-
 # Work History Section
 define_work_history()
-
-
+# Projects and Accomplishments
+define_projects_and_accomplishments()
+# Studies
+define_studies()
 

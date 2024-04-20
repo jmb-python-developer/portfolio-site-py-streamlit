@@ -18,8 +18,6 @@ def load_work_history():
 
 '''
 Defines the work history.
-Could be refactored to be read from a text file and loaded with a function too.
-For simplicity and quick project demonstration purposes, left at how it looks now.
 '''
 
 

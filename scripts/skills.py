@@ -6,7 +6,7 @@ import yaml
 
 def load_skills():
     # Assuming the 'main.py' file is in the same directory as 'resources' folder
-    yaml_file_path = os.path.join('resources', 'projects_accomplishments.yaml')
+    yaml_file_path = os.path.join('resources', 'skills.yaml')
     with open(yaml_file_path, 'r') as file:
         return yaml.safe_load(file)
 
@@ -15,7 +15,7 @@ def display_skills(skills):
     col1, col2, col3 = st.columns([2, 2, 1])
 
     with col1:
-        st.markdown("#### 👨🏻‍💻 Tech Skills")
+        st.markdown("#### 👨🏻‍💻 Coding")
         for category, items in skills['tech_skills'].items():
             st.markdown(f"##### {category.title().replace('_', ' ')}")
             for item in items:
@@ -33,5 +33,7 @@ def display_skills(skills):
 
 
 def define_skillset():
+    st.write("#")
+    st.subheader("Tech Skills")
     skills = load_skills()
     display_skills(skills)
