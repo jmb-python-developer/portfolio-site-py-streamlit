@@ -15,7 +15,7 @@ EMAIL = "juan.marcos.bruno@gmail.com"
 SOCIAL_MEDIA = {
     # "YouTube": "uncomment_add_youtube_page_here",
     "LinkedIn": "https://www.linkedin.com/in/juanmarcosbruno/",
-    "GitHub": "https://github.com/jmb-python-developer",
+    "GitHub (Python)": "https://github.com/jmb-python-developer",
     # "Twitter": "uncomment_add_twitter_profile_here",
 }
 PROJECTS = {

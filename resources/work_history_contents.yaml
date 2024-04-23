@@ -1,4 +1,4 @@
-# Add here the necessary work history entries
+# Add here the necessary work history entries, top to bottom, newest to oldest
 - title: Senior Software Engineer
   period: "Sept 2023 – Present"
   company: Personio
@@ -19,3 +19,97 @@ continuous deployment."
   technology_stack: "Scala/Java Microservices, Spring Boot, Hibernate, Kafka, Cassandra, AWS Keyspaces, MySQL,
 Grafana, Kibana, Prometheus, Cucumber, Gitlab."
   company_url: "https://www.poppulo.com/"
+
+- title: Lead Software Developer
+  period: "Mar 2019 – Sep 2021"
+  company: Equifax
+  business_unit: Collections & Recoveries
+  location: "Dublin, Ireland 🇮🇪"
+  project: "Design, Architecture and Implementation of a fully Cloud Based Big Data solution for batch processing of collections
+and recoveries datasets. Re engineering of the Batch Jobs and Satellite Services products from a Legacy solution into
+the AWS Platform by following a multi tenancy model of cloud infrastructure and resources. As a Technical Lead responsibilities
+included driving agile ceremonies (Scrum), mentoring other developers on the team and engaging in
+conversation with BAs and POs around requirements."
+  technology_stack: "
+\n \t • Spring Core, JPA and Spring Cloud Microservices’ modules for satellite services interacting with the
+Product, as well as services backing UI products. \n
+\n \t • AWS Services: EMR, Step Functions, DynamoDB, RDS PostgresSQL, AWS API Gateway, Lambda Functions,
+EC2 on ECS and S3. \n
+\n \t • Apache Spark Java API for Big Data processing.\n
+\n \t • Agile Methodology: Scrum/Spotify Model.\n
+\n \t • Git, Maven. CD/CI: Github, Jenkins on cloud virtualized servers with blue-green deployments.\n
+\n \t • Frontend: Angular 2, TypeScript, NodeJS/Javascript.\n
+\n \t • Testing: Cucumber, Spock Framework, Mockito, Mocked Lambda Functions and Environments."
+  company_url: "https://www.equifax.com/"
+
+- title: Sr. Software Engineer
+  period: "Feb 2018 – Mar 2019"
+  company: Equifax
+  business_unit: The Workforce Number
+  location: "Dublin, Ireland 🇮🇪"
+  project: "Development of Synchronous Microservices for the Instant Verification Services Product. Solution for processing and
+servicing Employment/Career History information."
+  technology_stack: "
+\n \t • Spring Boot and Spring Restful modules, Spring Cloud modules (Eureka, Config server and client, Zuul
+Gateway, etc.). Spring Data JPA/JDBC Template for the persistence layer. \n
+\n \t • Oauth2 and Spring Security, OpenId connect based implementation. HashiCorp Vault. \n
+\n \t • Oracle SQL.\n
+\n \t • Agile Methodology: Scrum.\n
+\n \t • Git, Maven and Gradle. CD/CI: Jenkins and cloud virtualized servers.\n
+\n \t • Testing: Junit5, Spring Testing"
+  company_url: "https://www.theworknumber.com"
+
+- title: Software Engineer
+  period: "Aug 2014 – Feb 2018"
+  company: SP Global (Formerly IHS Markit)
+  business_unit: Corporate Actions
+  location: "Dublin, Ireland 🇮🇪"
+  project: "Post Trade Software Enterprise Application for processing movements on companies’ announcements around
+Securities. Development included Integration of heterogeneous applications through backend modules and
+web services, coupled with the use of an in-house propriety ESB, JMS messaging and batch processing capabilities
+(Spring Batch.)"
+  technology_stack: "
+\n \t • Java EE Core Technologies: Servlets, Enterprise Java Beans (EJB 3.x), JDBC and JPA (Hibernate
+Implementation). \n
+\n \t • Oracle 11g DBMS and PL/SQL scripting. \n
+\n \t • Java RESTful web services developments.\n
+\n \t • Frameworks: Spring batch, Freemarker (Frontend) and later AngularJS.\n
+\n \t • SVN versioning, Crucible, Bamboo integration, Jira.\n
+\n \t • Test Driven Development, JMock, Mockito."
+  company_url: "https://www.spglobal.com"
+
+- title: Java Backend Developer
+  period: "Jan 2014 – Aug 2014"
+  company: MercadoLibre
+  business_unit: Billing
+  location: "Buenos Aires, Argentina 🇦🇷"
+  project: "Enhancements and migration from legacy code (re-engineering) for the billing APIs used and consumed by the
+accounting integrated systems. The site is the most successful e-commerce application in South America.
+Developments were focused mainly on creation of RESTful web services and maintenance for the legacy Jersey
+web services as well. RESTful API implementation in Grails/Groovy and Java EE Jersey Web services legacy code
+maintenance. Implementation of NoSQL technology for the persistence layer (Document oriented)"
+  technology_stack: "
+\n \t • RESTful API designs in Grails/Groovy and Java EE Jersey Web services. \n
+\n \t • Oracle 11g DBMS and PL/SQL scripting. \n
+\n \t • Java integration with ElasticSearch for text storing and processing. Java (J2EE) legacy billing systems maintenance.\n
+\n \t • Git, Gerrit, Github.\n
+\n \t • TDD, Spock framework."
+  company_url: "https://www.mercadolibre.com.ar"
+
+- title: Java Backend Developer
+  period: "May 2013-Jan 2014"
+  company: Verizon Business
+  business_unit: Telecomunications
+  location: "Buenos Aires, Argentina 🇦🇷"
+  project: "Middleware application developments, focusing on the integration of heterogeneous systems through common interfaces.
+The SOA architecture was enriched by implementing a virtualized layer and utilizing OSB (Oracle Service
+Bus). On the Java technical level this involved working mostly with Oracle’s framework capabilities but also SOAP
+and XML based java web services (JAX-WS/JAXB and the usage of Java Enterprise APIs for the business/service and
+persistence layers(JMS, EJB, JPA-EclipseLink implementation)"
+  technology_stack: "
+\n \t • Backend/Middleware Developer - JAVA EE, Oracle PL/SQL, XML, JMS, EJB, JPA. \n
+\n \t • SOAP based Web Services development. XML processing through XSLT, XPATH and XQUERY. \n
+\n \t • Oracle Service Bus (OSB, Oracle Enterprise Service Bus) management and usage: Services virtualization,
+routing, security, etc.\n
+\n \t • Continuous Integration through HP Quality Centre and Hudson.\n"
+  company_url: "https://www.verizon.com"

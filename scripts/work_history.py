@@ -38,3 +38,13 @@ def define_work_history():
         st.write(f"- *Technology Stack:* {job['technology_stack']}")
         st.write("#")
 
+
+def define_other_past_experience():
+    st.markdown("##### *Other Past Work Experience*")
+    st.write("#")
+    st.write("---")
+    st.markdown("**Junior Java Developer**, Jun 2012-Apr 2013")
+    st.write("Sabre Holdings - Travelocity- (https://www.travelocity.com), Buenos Aires, Argentina 🇦🇷")
+
+    st.markdown("**Programming Intern**, Dec 2008-May 2010")
+    st.write("Superior Council of Catholic Education- [CONSUDEC](https://www.consudec.org) Buenos Aires, Argentina 🇦🇷")

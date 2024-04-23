@@ -22,8 +22,9 @@ st.title(PAGE_TITLE)
 st.markdown("<style>{}</style>".format(css_file_contents), unsafe_allow_html=True)
 profile_picture = Image.open(profile_pic_contents)
 
-# Hero Section
-col1, col2 = st.columns(2, gap="small")
+# Create two columns for image and profile summary
+col1, col2 = st.columns([1, 1])
+
 with col1:
     st.image(profile_picture, width=230)
 
@@ -54,6 +55,8 @@ st.write(f"\n".join(EXPERIENCE_QUALIFICATIONS))
 define_skillset()
 # Work History Section
 define_work_history()
+# Far in the past - other experience section
+define_other_past_experience()
 # Projects and Accomplishments
 define_projects_and_accomplishments()
 # Studies

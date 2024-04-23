@@ -10,7 +10,7 @@ pip install streamlit
 ```
 
 ## Project Structure
-- `app.py`: The main Python script that runs the Streamlit application.
+- `main.py`: The main Python script that runs the Streamlit application.
 - `data/`: Directory where project data such as images, JSON files, or other project-related documents can be stored.
 - `utils/`: Contains utility scripts or Python files that help in managing the application.
 
@@ -32,13 +32,13 @@ To add your projects to the portfolio:
 3. Make sure the `image_path` is relative to the `data/` directory.
 
 ### Customizing Appearance
-- Modify the `app.py` to change the theme, layout, or add new sections to the website.
-- Streamlit supports theming that can be configured in `app.py` or through `.streamlit/config.toml`.
+- Modify the `main.py` to change the theme, layout, or add new sections to the website.
+- Streamlit supports theming that can be configured in `main.py` or through `.streamlit/config.toml`.
 
 ## Running the Application
 To run the application locally, navigate to the project directory in the terminal and run:
 ```
-streamlit run app.py
+streamlit run main.py
 ```
 This will start the server, and you can view your portfolio site by navigating to `http://localhost:8501` in your web browser.
 
